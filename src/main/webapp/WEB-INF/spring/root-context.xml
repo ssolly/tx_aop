@@ -26,5 +26,5 @@
    <!-- 마이바티스 xml파일과 dao빈 연결  -->
    <mybatis-spring:scan base-package="com.care.root.mapper"/>
 	
-	
+	<!-- 트랜잭션 관련 추가 가능하지만, tx_aop project에서는 어노테이션 사용 -->
 </beans>
